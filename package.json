@@ -1,0 +1,29 @@
+{
+  "name": "@troublemaker619/env_mapper",
+  "version": "1.0.0",
+  "prepublish": "tsc",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "thottan john",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thottanjohn/env_mapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thottanjohn/env_mapper/issues"
+  },
+  "homepage": "https://github.com/thottanjohn/env_mapper#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
