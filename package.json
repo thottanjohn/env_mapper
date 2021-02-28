@@ -1,6 +1,6 @@
 {
   "name": "@troublemaker619/env_mapper",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "prepublish": "tsc",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "start": "tsc && node dist/index.js",
     "build": "tsc"
   },
-  "author": "thottan john",
+  "author": "thottanjohn",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^14.14.31",
@@ -25,5 +25,7 @@
   "description": "",
   "dependencies": {
     "dotenv": "^8.2.0"
-  }
+  },
+  "files": ["dist/**"],
+  "keywords": ["Environment Varibales", "Mapper","Azure","Object"]
 }
